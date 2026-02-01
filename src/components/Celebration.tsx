@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import cuteHeart from '@/assets/cute-heart.png';
+import cutePanda from '@/assets/cute-panda.png';
+import cutePanda2 from '@/assets/cute-panda2.jpg';
+import cutePanda3 from '@/assets/panda3.jpg';
 import aribaImage from '@/assets/ariba.jpeg';
 
 const Celebration = () => {
@@ -46,14 +49,14 @@ const Celebration = () => {
         <CardContent className="p-8 flex flex-col items-center text-center">
           <div className="animate-bounce mb-6">
             <img 
-              src={cuteHeart} 
+              src={cutePanda3} 
               alt="Happy heart" 
               className="w-48 h-48 object-contain drop-shadow-lg"
             />
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4 font-serif">
-            Yay! 🎉
+            Yay!
           </h1>
           
           <p className="text-xl text-foreground mb-4">
