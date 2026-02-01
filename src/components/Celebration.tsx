@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import cuteHeart from '@/assets/cute-heart.png';
+import aribaImage from '@/assets/ariba.jpeg';
 
 const Celebration = () => {
   const [confetti, setConfetti] = useState<Array<{ id: number; left: string; delay: string; color: string }>>([]);
@@ -59,21 +60,23 @@ const Celebration = () => {
             I knew you'd say yes!
           </p>
           
-          <p className="text-2xl md:text-3xl text-accent-foreground font-serif">
-            You just made me the happiest person ever! 💕
-          </p>
+          <img 
+            src={aribaImage}
+            alt="Ariba"
+            className="w-full max-w-md rounded-lg shadow-lg"
+          />
           
-          <div className="mt-8 flex gap-2 text-4xl animate-pulse">
+          {/* <div className="mt-8 flex gap-2 text-4xl animate-pulse">
             <span>❤️</span>
             <span>💖</span>
             <span>💕</span>
             <span>💗</span>
             <span>❤️</span>
-          </div>
+          </div> */}
           
-          <p className="mt-6 text-muted-foreground text-sm">
+          {/* <p className="mt-6 text-muted-foreground text-sm">
             Happy Valentine's Day, my love! 💝
-          </p>
+          </p> */}
         </CardContent>
       </Card>
 
