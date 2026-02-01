@@ -62,6 +62,40 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### Deploy to GitHub Pages
+
+This project is configured to deploy to GitHub Pages automatically.
+
+**Automated Deployment (Recommended)**
+
+Every push to the `main` branch will automatically trigger a deployment via GitHub Actions.
+
+1. Make sure GitHub Pages is enabled in your repository settings:
+   - Go to Settings → Pages
+   - Under "Source", select "GitHub Actions"
+
+2. Push your changes to the `main` branch:
+
+   ```sh
+   git add .
+   git commit -m "Your commit message"
+   git push origin main
+   ```
+
+3. The site will be available at: `https://ahsannaqvii.github.io/my-private-work`
+
+**Manual Deployment**
+
+You can also deploy manually using the gh-pages package:
+
+```sh
+npm run deploy
+```
+
+This will build the project and push it to the `gh-pages` branch.
+
+### Deploy via Lovable
+
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?

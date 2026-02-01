@@ -45,7 +45,7 @@ const ValentineCard = () => {
             Will You Be My
           </h1>
           <h2 className="text-4xl md:text-5xl font-bold text-accent-foreground mb-8 font-serif">
-            Valentine? 💕
+            Sweetheart? 💕
           </h2>
           
           <div className="flex gap-4 items-center relative min-h-[60px]">
