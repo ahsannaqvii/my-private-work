@@ -82,7 +82,7 @@ Every push to the `main` branch will automatically trigger a deployment via GitH
    git push origin main
    ```
 
-3. The site will be available at: `https://ahsannaqvii.github.io/my-private-work`
+3. The site will be available at: `https://ahsannaqvii.github.io/everafter`
 
 **Manual Deployment**
 

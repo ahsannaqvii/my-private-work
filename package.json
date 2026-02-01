@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ahsannaqvii.github.io/my-private-work",
+  "homepage": "https://ahsannaqvii.github.io/everafter",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
